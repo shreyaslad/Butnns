@@ -1,5 +1,17 @@
 .hero{
-  font-family: 'Quicksand', sans-serif;
+   font-family: 'Quicksand', sans-serif;
+    position: center;
+    color: white;
+    background: url('http://wallpapershome.com/images/pages/pic_h/10012.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
-/*Image link: http://wallpapershome.com/images/pages/pic_h/10012.jpg */
