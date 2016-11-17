@@ -1,12 +1,33 @@
 /* Butns is created by Shreyas Lad and is liscensed inder the MIT Liscense */
 
-.btn-redWhite{
-  background-color: red;
-  color: white;
+/* Font Color */
+.btn-colred{
+  color: red;
 }
+.btn-colblue{
+  color: blue;
+}
+
+.btn-colgreen{
+  color: green;
+}
+/*Background Color*/
+
+/* Font */
 .btn-Arial{
   font-family: Arial;
 }
 .btn-Open{
   font-family: 'Open Sans', sans-serif;
+}
+.btn-Ans{
+  font-family: 'Anson', sans-serif;
+}
+
+/* Color Weight */
+.btn-colblue-light{
+  color: light blue;
+}
+.btn-colblue-dark{
+  color: dark blue;
 }
