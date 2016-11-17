@@ -1,6 +1,8 @@
 # Butns
 A library of buttons for lazy people
 
+[Get Butns](http://getbutns.tk)
+
 ## Getting Started
 Direct Link (Full): `https://github.com/PenetratingShot/Butns/blob/master/distrib/butns.css`
 
