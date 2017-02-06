@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+ body {
+ margin:0;
+ padding:0;
+ font-family:'Quicksand';
+ }
 
 .container h1,h3{
  font-family: 'Quicksand', sans-serif; 
 }
+
 .container h1{
   padding-top: 220px;
+}
+
+.content {
+  margin-top:300px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: #1B1D1E;
+  color:#f5f5f5;
 }
