@@ -17,6 +17,9 @@
 .bg-black{
     background-color: black;
 }
+.bg-white{
+    background-color: white;
+}
 .bg-red{
   background-color: #ed1a1a;
 }
@@ -40,13 +43,41 @@
 }
 
 /* Text Color */
+.clr-black{
+    background-color: black;
+}
+.clr-white{
+    background-color: white;
+}
 .clr-red{
-  
+  background-color: #ed1a1a;
+}
+.clr-green{
+ background-color: #36e23c; 
+}
+.clr-blue{
+ background-color: #3b64e2; 
+}
+.clr-orange{
+  background-color: #e86909;
+}
+.clr-yellow{
+ background-color: #ebef07;   
+}
+.clr-indigo{
+ background-color: #c339f9;   
+}
+.clr-violet{
+    background-color: violet;
 }
 
+
 /* Visited Background*/
-.bg-black{
+.bg-black a,visited{
     background-color: black;
+}
+.bg-white a,visited{
+    background-color: white;
 }
 .bg-red{
   background-color: #ed1a1a;
@@ -77,6 +108,6 @@
 
 
 /* Hover Text */
-.hov-text-red{
+.clr-red:hover{
     
 }
