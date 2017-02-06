@@ -1,5 +1,5 @@
 .btn{
-    background-color: #000000 /* Green */
+    background-color: #000000;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -12,6 +12,7 @@
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
 /* Base */
 .bg-red{
   background-color: #ed1a1a;
@@ -23,12 +24,50 @@
  background-color: #3b64e2; 
 }
 .bg-orange{
+  background-color: #e86909;
+}
+.bg-yellow{
+ background-color: #ebef07;   
+}
+.bg-indigo{
+ background-color: #c339f9;   
+}
+.bg-violet{
+    background-color: violet;
+}
+
+
+/* Visited */
+.bg-red{
+  background-color: #ed1a1a;
+}
+.bg-green{
+ background-color: #36e23c; 
+}
+.bg-blue{
+ background-color: #3b64e2; 
+}
+.bg-orange{
+  background-color: #e86909;
+}
+.bg-yellow{
+ background-color: #ebef07;   
+}
+.bg-indigo{
+ background-color: #c339f9;   
+}
+.bg-violet{
+    background-color: violet;
+}
+
+/* Hover BG */
+.hov-red{
   
 }
 
-/* Hover Color */
-.is-red{
-  
+/* Hover Text */
+.hov-text-red{
+    
 }
 
 /* Text Color */
