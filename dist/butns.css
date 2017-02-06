@@ -1,33 +1,37 @@
-/* Butns is created by Shreyas Lad and is licensed inder the MIT Liscense */
+.btn{
+    background-color: #000000 /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+/* Base */
+.bg-red{
+  background-color: #ed1a1a;
+}
+.bg-green{
+ background-color: #36e23c; 
+}
+.bg-blue{
+ background-color: #3b64e2; 
+}
+.bg-orange{
+  
+}
 
-/* Font Color */
-.btn-colred{
-  color: red;
-}
-.btn-colblue{
-  color: blue;
+/* Hover Color */
+.is-red{
+  
 }
 
-.btn-colgreen{
-  color: green;
-}
-/*Background Color*/
-
-/* Font */
-.btn-Arial{
-  font-family: Arial;
-}
-.btn-Open{
-  font-family: 'Open Sans', sans-serif;
-}
-.btn-Ans{
-  font-family: 'Anson', sans-serif;
-}
-
-/* Color Weight */
-.btn-colblue-light{
-  color: light blue;
-}
-.btn-colblue-dark{
-  color: dark blue;
+/* Text Color */
+.clr-red{
+  
 }
