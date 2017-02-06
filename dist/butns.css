@@ -14,6 +14,9 @@
 }
 
 /* Base */
+.bg-black{
+    background-color: black;
+}
 .bg-red{
   background-color: #ed1a1a;
 }
@@ -34,43 +37,46 @@
 }
 .bg-violet{
     background-color: violet;
-}
-
-
-/* Visited */
-.bg-red{
-  background-color: #ed1a1a;
-}
-.bg-green{
- background-color: #36e23c; 
-}
-.bg-blue{
- background-color: #3b64e2; 
-}
-.bg-orange{
-  background-color: #e86909;
-}
-.bg-yellow{
- background-color: #ebef07;   
-}
-.bg-indigo{
- background-color: #c339f9;   
-}
-.bg-violet{
-    background-color: violet;
-}
-
-/* Hover BG */
-.hov-red{
-  
-}
-
-/* Hover Text */
-.hov-text-red{
-    
 }
 
 /* Text Color */
 .clr-red{
   
+}
+
+/* Visited Background*/
+.bg-black{
+    background-color: black;
+}
+.bg-red{
+  background-color: #ed1a1a;
+}
+.bg-green{
+ background-color: #36e23c; 
+}
+.bg-blue{
+ background-color: #3b64e2; 
+}
+.bg-orange{
+  background-color: #e86909;
+}
+.bg-yellow{
+ background-color: #ebef07;   
+}
+.bg-indigo{
+ background-color: #c339f9;   
+}
+.bg-violet{
+    background-color: violet;
+}
+
+/* Visited Text CLR */
+
+
+/* Hover Background */
+
+
+/* Hover Text */
+.hov-text-red{
+    
 }
