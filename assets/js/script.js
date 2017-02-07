@@ -1,11 +1,7 @@
-$(document).ready(function(){       
-            var scroll_pos = 0;
-            $(document).scroll(function() { 
-                scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 210) {
-                    $("body").css('background-color', 'blue');
-                } else {
-                    $("body").css('background-color', 'red');
-                }
-            });
-        });
+$(document).ready(function(){
+    $(document).scroll(function() {
+        var alpha = Math.min(0.5 + 0.4 * $(this).scrollTop() / 210, 0.9);
+        var channel = Math.round(alpha * 255);
+        $("body").css('background-color', 'rgb(' + channel + ',' + channel + ',' + channel + ')');
+    });
+});
