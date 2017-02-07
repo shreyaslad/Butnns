@@ -79,25 +79,25 @@
 .bg-white a,visited{
     background-color: white;
 }
-.bg-red{
+.bg-red a,visited{
   background-color: #ed1a1a;
 }
-.bg-green{
+.bg-green a,visited{
  background-color: #36e23c; 
 }
-.bg-blue{
+.bg-blue a,visited{
  background-color: #3b64e2; 
 }
-.bg-orange{
+.bg-orange a,visited{
   background-color: #e86909;
 }
-.bg-yellow{
+.bg-yellow a,visited{
  background-color: #ebef07;   
 }
-.bg-indigo{
+.bg-indigo a,visited{
  background-color: #c339f9;   
 }
-.bg-violet{
+.bg-violet a,visited{
     background-color: violet;
 }
 
@@ -105,9 +105,59 @@
 
 
 /* Hover Background */
-
+.bg-black a:hover{
+    background-color: black;
+}
+.bg-white a:hover{
+    background-color: white;
+}
+.bg-red a:hover{
+  background-color: #ed1a1a;
+}
+.bg-green a:hover{
+ background-color: #36e23c; 
+}
+.bg-blue a:hover{
+ background-color: #3b64e2; 
+}
+.bg-orange a:hover{
+  background-color: #e86909;
+}
+.bg-yellow a:hover{
+ background-color: #ebef07;   
+}
+.bg-indigo a:hover{
+ background-color: #c339f9;   
+}
+.bg-violet a:hover{
+    background-color: violet;
+}
 
 /* Hover Text */
-.clr-red:hover{
-    
+.clr-black a:hover{
+  color: black;
+}
+.clr-white a:hover{
+  color: white;
+}
+.clr-red a:hover{
+  color: #ed1a1a;
+}
+.clr-green a:hover{
+ color: #36e23c; 
+}
+.clr-blue a:hover{
+ color: #3b64e2; 
+}
+.clr-orange a:hover{
+  color: #e86909;
+}
+.clr-yellow a:hover{
+ color: #ebef07;   
+}
+.clr-indigo a:hover{
+ color: #c339f9;   
+}
+.clr-violet a:hover{
+ color: violet;
 }
