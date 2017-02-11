@@ -1,0 +1,41 @@
+{
+  "name": "butns",
+  "version": "0.0.1",
+  "description": "A Buttons Library for Lazy People.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "vows --spec",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PenetratingShot/butnns.git"
+  },
+  "keywords": [
+  "butns"
+  ],
+  "author": "Shreyas Lad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PenetratingShot/butnns/issues"
+  },
+  "homepage": "http://getbutns.tk",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/PenetratingShot/butnns.git",
+    "basePath": "dist",
+    "files": [
+      "butns.min.css",
+      "butns.css"
+    ]
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-beautify": "^2.0.1",
+    "gulp-concat": "latest",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-load-plugins": "^1.2.4",
+  },
+}
